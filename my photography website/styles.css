@@ -1,0 +1,95 @@
+h1 {
+    margin-top: 0%;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+.bio {
+    color: teal;
+    text-align: center;
+    font-size: 17px;
+}
+
+ul {
+    color: rgb(79, 8, 83);
+    text-align: left;
+    font-size: 15px;
+}
+
+.pictures {
+    color: seagreen;
+    font-size: 15px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.link-container a {
+    padding: 10px;
+    text-decoration: none;
+
+    color: darkolivegreen;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+
+/* from here starts hover properties */
+
+.zoom1:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.zoom2:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.zoom3:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.zoom4:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
